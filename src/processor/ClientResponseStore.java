@@ -5,17 +5,17 @@ import java.util.List;
 
 public class ClientResponseStore {
 
-    List<ClientResponse> clientResponseList;
+    List<ClientRes> clientResponseList;
 
     public ClientResponseStore() {
         clientResponseList = new ArrayList<>();
     }
 
-    public List<ClientResponse> getClientResponseList() {
+    public List<ClientRes> getClientResponseList() {
         return clientResponseList;
     }
 
-    public List<ClientResponse> addClientResponse(ClientResponse clientResponse){
+    public List<ClientRes> addClientResponse(ClientRes clientResponse){
        clientResponseList.add(clientResponse);
        return clientResponseList;
     }
